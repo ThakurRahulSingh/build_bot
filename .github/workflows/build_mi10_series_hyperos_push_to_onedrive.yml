@@ -10,11 +10,11 @@ on:
         required: true
       PACK_TYPE:
         description: "打包类型（EXT/EROFS) | PACKING TYPE(EXT/EROFS), EROFS BY DEFAULT"
-        default: EROFS
+        default: EXT
         required: false
       ENCRYPTION:
         description: "是否解密data分区(TRUE/FALSE)，默认加密 | FBE DECRYPTION OR NOT, FBE ENABLED BY DEFAULT"
-        default: FALSE
+        default: TRUE
         required: false
 
 jobs:
